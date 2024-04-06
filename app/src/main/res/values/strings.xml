@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="buttonRegistration">Registration</string>
+    <string name="textViewSurnameNameHint">Surname Name</string>
+    <string name="textViewPhoneHint">Phone</string>
+    <string name="textViewSurname">Surname</string>
+    <string name="textViewName">Name\n</string>
+    <string name="textViewPhone">Telephone number\n</string>
+    <string name="buttonSetPath">SET PATH</string>
+    <string name="buttonCallTaxi">CALL TAXI\n</string>
+    <string name="textViewStreet">Street</string>
+    <string name="textViewHouse">House</string>
+    <string name="textViewFlat">Flat</string>
+    <string name="buttonOk">OK</string>
+    <string name="textViewPointFrom">Point From</string>
+    <string name="textViewPointTo">Point To\n</string>
+</resources>

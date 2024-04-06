@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textViewPointFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/textViewPointFrom"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewStreet1"/>
+
+    <TextView
+        android:id="@+id/textViewStreet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewStreet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextStreet1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewHouse1"/>
+
+    <EditText
+        android:id="@+id/editTextStreet1"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editTextHouse1"/>
+
+    <TextView
+        android:id="@+id/textViewHouse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewHouse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextHouse1"
+        app:layout_constraintTop_toBottomOf="@id/textViewStreet1"
+        app:layout_constraintBottom_toTopOf="@id/textViewFlat1"/>
+
+    <EditText
+        android:id="@+id/editTextHouse1"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextStreet1"
+        app:layout_constraintBottom_toTopOf="@id/editTextFlat1"/>
+
+    <TextView
+        android:id="@+id/textViewFlat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewFlat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextFlat1"
+        app:layout_constraintTop_toBottomOf="@id/textViewHouse1"
+        app:layout_constraintBottom_toTopOf="@id/textViewStreet2"/>
+
+    <EditText
+        android:id="@+id/editTextFlat1"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextHouse1"
+        app:layout_constraintBottom_toTopOf="@id/editTextStreet2"/>
+
+    <TextView
+        android:id="@+id/textViewPointTo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/textViewPointTo"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewStreet2"/>
+
+    <TextView
+        android:id="@+id/textViewStreet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewStreet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextStreet2"
+        app:layout_constraintTop_toBottomOf="@id/textViewFlat1"
+        app:layout_constraintBottom_toTopOf="@id/textViewHouse2"/>
+
+    <EditText
+        android:id="@+id/editTextStreet2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextFlat1"
+        app:layout_constraintBottom_toTopOf="@id/editTextHouse2"/>
+
+    <TextView
+        android:id="@+id/textViewHouse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewHouse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextHouse2"
+        app:layout_constraintTop_toBottomOf="@id/textViewStreet2"
+        app:layout_constraintBottom_toTopOf="@id/textViewFlat2"/>
+
+    <EditText
+        android:id="@+id/editTextHouse2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextStreet2"
+        app:layout_constraintBottom_toTopOf="@id/editTextFlat2"/>
+
+    <TextView
+        android:id="@+id/textViewFlat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewFlat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextFlat2"
+        app:layout_constraintTop_toBottomOf="@id/textViewHouse2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <EditText
+        android:id="@+id/editTextFlat2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextHouse2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonOk"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
